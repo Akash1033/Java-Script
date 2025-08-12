@@ -10,12 +10,30 @@
 // }
 
 for (let index = 0; index < 10; index++) {
-    console.log(`outer loop value :${index}`);
+    // console.log(`outer loop value :${index}`);
     for (let j = 0; j < 10; j++) {
         // console.log(`Inner loop value is ${j} and outer is ${index}`);
         // console.log(index + '*' + j + '=' + index*j );
         
     }
-
+}
     
+
+let myArray = ['Akash','Aman' , 'Manu']
+// console.log(myArray.length);
+
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[index];
+    // console.log(element);
+    
+}
+
+
+for (let index = 1; index <= 20; index++) {
+    if(index == 5){
+        console.log(`detected 5`);
+        continue;
+        
+    }
+    console.log(`value of i is ${index}`);
 }
